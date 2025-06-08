@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #343434;
+  color: white;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #343434;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav h1 a {
+  color: #ddfaff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+nav #navigation-bar {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav #navigation-bar li {
+  margin-left: 1.5rem;
+  position: relative;
+}
+nav #navigation-bar li .nav-item {
+  color: #ddfaff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+nav #navigation-bar li .nav-item:hover {
+  color: #65e8ff;
+}
+nav #navigation-bar li .tooltip {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #343434;
+  color: #ddfaff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.tooltip {
+  display: none;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  position: absolute;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+.socials {
+  position: relative;
+  display: inline-block;
+}
+
+/* Show tooltip on hover */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 10px;
+}

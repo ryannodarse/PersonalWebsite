@@ -1,0 +1,18 @@
+jQuery Everything:
+https://jquery.com/
+https://jqueryui.com/
+
+Generating many CSS Properties:
+https://cssgenerator.org/
+
+Researching about CSS/HTML properties/tags, as well as some jQuery help:
+https://www.w3schools.com/
+
+Fonts:
+https://fonts.google.com/
+
+Footer staying at bottom of page:
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+
+Asking random questions with varying degrees of success:
+https://stackoverflow.com/
